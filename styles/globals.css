@@ -11,18 +11,14 @@
 @layer base {
   body {
     @apply
-      animate-background
-      bg-gradient-to-r from-[#f0e7db] to-zinc-400
-      dark:bg-gradient-to-r dark:from-[#202023] dark:to-[#8a6e4a]
-      bg-[length:500%_500%] transition [animation-duration:_10s]
+      animate-[lightBackground_10s_infinite]
+      dark:animate-[darkBackground_10s_infinite]
   }
 
-  .bodyMenu {
+  .BoxMenu {
     @apply
-      animate-background
-      bg-gradient-to-r from-zinc-400 to-[#f0e7db]
-      dark:bg-gradient-to-r dark:from-[#8a6e4a] dark:to-[#202023]
-      bg-[length:500%_500%] transition [animation-duration:_10s]
+    animate-[lightMenuBackground_10s_infinite]
+    dark:animate-[darkMenuBackground_10s_infinite]
   }
 
   .text_hover {
