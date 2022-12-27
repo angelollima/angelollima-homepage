@@ -25,15 +25,64 @@ module.exports = {
         top_shadow: '1px -1px 1px 1px rgba(77, 40, 40, 0.212)',
         shadow: '1px 1px 1px 1px rgba(77, 40, 40, 0.212)',
       },
-      animation: {
-        background: 'background ease infinite',
-      },
       keyframes: {
-        background: {
-          '0%, 100%': { backgroundPosition: '0% 100%' },
-          '50%': { backgroundPosition: '100% 200%' },
+        lightBackground: {
+          '0%': {
+            background: '#f0e7db'
+          },
+          '37%': {
+            background: '#e6d9b3'
+          },
+          '63%': {
+            background: '#e6d9b3'
+          },
+          '100%': {
+            background: '#f0e7db'
+          }
         },
-      }
+        darkBackground: {
+          '0%': {
+            background: '#8a6e4a'
+          },
+          '37%': {
+            background: '#202023'
+          },
+          '63%': {
+            background: '#202023'
+          },
+          '100%': {
+            background: '#8a6e4a'
+          }
+        },
+        lightMenuBackground: {
+          '0%': {
+            background: '#e6d9b3'
+          },
+          '37%': {
+            background: '#f0e7db'
+          },
+          '63%': {
+            background: '#f0e7db'
+          },
+          '100%': {
+            background: '#e6d9b3'
+          }
+        },
+        darkMenuBackground: {
+          '0%': {
+            background: '#202023'
+          },
+          '37%': {
+            background: '#8a6e4a'
+          },
+          '63%': {
+            background: '#8a6e4a'
+          },
+          '100%': {
+            background: '#202023'
+          }
+        },
+      },
     },
   },
   plugins: [],
