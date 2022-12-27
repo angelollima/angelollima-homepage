@@ -53,7 +53,7 @@ const NavBar = () => {
                   <MenuButton isActive={isOpen} as={IconButton} aria-label='Options' variant='outline'>
                     {isOpen ? <HiX size={34} /> : <HiMenu size={34} />}
                   </MenuButton>
-                  <MenuList className='bodyMenu rounded-md w-32 mt-1 space-y-1.5 p-1.5'>
+                  <MenuList className='BoxMenu rounded-md w-32 mt-1 space-y-1.5 p-1.5'>
                     <MenuItem>
                       <Link href="/" passHref>
                         About
