@@ -21,7 +21,7 @@ const Home = () => {
           <div className='flex flex-col items-center sm:flex-row sm:justify-evenly'>
             <div>
               <Paragraph className='rounded-lg mb-6 py-2 px-2 bg-transparent_screen'>
-                <p className='text-sm lg:text-base text-center'>Hi, I'm a fullstack developer based in Brazil!</p>
+                <p className='text-sm lg:text-base text-center'>Hi, I&apos;m a fullstack developer based in Brazil!</p>
               </Paragraph>
               <Paragraph className='rounded-lg mb-6 sm:mb-0 pt-6 px-2'>
                 <p className='text-md lg:text-lg text-center'>Angelo Antonio L.S. Filho</p>
